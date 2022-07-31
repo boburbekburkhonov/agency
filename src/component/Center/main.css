@@ -1,0 +1,26 @@
+.center {
+  background: rgba(22, 93, 245, 0.1);
+  padding: 70px 0;
+}
+
+.center-heading {
+  margin: 0;
+  max-width: 748px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+  color: #000000;
+}
+
+.center-desc {
+  margin: 0;
+  max-width: 644px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}

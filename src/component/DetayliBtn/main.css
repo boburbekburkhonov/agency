@@ -1,0 +1,26 @@
+.detayli-btn {
+  padding: 10px 55px 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  background: #165DF5;
+  border: 0.5px solid #165DF5;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  background-image: url(../../assets/images/detayli.png);
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  transition: all 0.4s;
+}
+
+.detayli-btn:hover {
+  opacity: 0.8;
+    color: #FFFFFF;
+}
+
+.detayli-btn:active {
+  opacity: 0.4;
+    color: #FFFFFF;
+}
