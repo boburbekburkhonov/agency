@@ -1,0 +1,30 @@
+.services-span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.services-span-blue {
+  color: #165DF5;
+}
+
+.services-heading {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.services-desc {
+  margin: 0;
+  max-width: 644px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}

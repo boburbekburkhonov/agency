@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import DetayliBtn from '../DetayliBtn'
 import './main.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function index(props) {
+
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
-      <section className='center'>
+      <section className='center' data-aos="fade-up"
+     data-aos-duration="5000">
         <div className="container d-flex flex-column align-items-center justify-content-center">
           <h3 className='center-heading'>
           Ürününüz veya hizmetiniz için en iyisini birlikte yapalım.

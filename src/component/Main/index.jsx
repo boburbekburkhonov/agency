@@ -3,6 +3,8 @@ import Hero from '../Hero'
 import Services from '../Services'
 import Center from '../Center'
 import Option from '../Option'
+import News from '../News'
+import Last from '../Last'
 
 function index(props) {
 
@@ -13,6 +15,8 @@ function index(props) {
         <Services />
         <Center />
         <Option />
+        <News />
+        <Last />
       </main>
     </>
   );

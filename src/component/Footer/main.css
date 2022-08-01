@@ -1,0 +1,40 @@
+.footer {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background: #165DF5;
+}
+
+.footer-item + .footer-item {
+  margin-left: 32px;
+}
+
+.footer-item-link {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #FFFFFF;
+  transition: all 0.4s;
+}
+
+.footer-item-link:hover {
+  opacity: 0.8;
+  color: #FFFFFF;
+}
+
+.footer-item-link:active {
+  opacity: 0.4;
+  color: #FFFFFF;
+}
+
+.footer-desc {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #FFFFFF;
+}

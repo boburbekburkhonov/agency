@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './main.css'
 import img from '../../assets/images/option.png'
+import Text from '../Text'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function index(props) {
+
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
-      <section className='option'>
+      <section className='option' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
         <div className="container">
          <div className='services-top'>
-              <span className='services-span'>
-              Neler <span className='services-span-blue'>Yapıyoruz?</span>
-              </span>
-
-              <h3 className='services-heading'>
-              Sizin için neler yapıyoruz?
-              </h3>
-
-              <p className='services-desc'>
-              360° dijital marka danışmanlığı, web tasarım ve reklam ajansıdır. İşletmelerin ihtiyaçlarına uygun web tasarım ve web yazılım hizmetleri sunmaktayız.
-              </p>
+            <Text heading="Sizin için neler yapıyoruz?" desc="360° dijital marka danışmanlığı, web tasarım ve reklam ajansıdır. İşletmelerin ihtiyaçlarına uygun web tasarım ve web yazılım hizmetleri sunmaktayız." />
           </div>
 
         <div className='d-flex align-items-center justify-content-between'>

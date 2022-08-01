@@ -1,0 +1,57 @@
+.news-item {
+  padding: 15px;
+  max-width: 282px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-item-span {
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #165DF5;
+}
+
+.news-item-heading {
+  margin: 0;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 18.662px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.news-item-desc {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.news-item-span-bottom {
+  font-weight: 450;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: end;
+  color: #165DF5;
+}
+
+.news-item-span-bottom::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../../assets/images/strelka.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+}
